@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #4c4c4c;
+}
+.app {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.footer-item {
+  margin-right: 20px;
+  font-size: 12px;
+  opacity: 0.54;
+}
+
+.nav-bar {
+  grid-column: 1 / span 12;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c8d3d6;
+  height: 75px;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.side-nav {
+  grid-column: 1 / 3;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.side-nav__image {
+  margin-right: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.side-nav__link-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  margin-top: 5px;
+}
+
+.side-nav__link {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.content__title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.content__analytics-container {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  border: 1px solid #c8d3d6;
+  box-shadow: 0px 3px 6px #a3a3a3;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.content__analytics {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.content__chart {
+  border: 1px solid #c8d3d6;
+  grid-column: 5 / -1;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-top: 10px;
+  border-radius: 9px;
+}
+
+.content__activity-heading {
+  border: 1px solid #c8d3d6;
+  padding: 15px 15px;
+  border-radius: 5px;
+  margin: 30px 0 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.content__activity-container {
+  border: 1px solid #c8d3d6;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__activity {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+
+.footer {
+  grid-column: 3 / span 12;
+  margin-left: 70px;
+  margin-right: 25px;
+  height: 87px;
+  border: 0.75px solid #e4e4e4;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
